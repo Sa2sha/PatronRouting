@@ -57,11 +57,7 @@
     "geosite:dzen",
     "geosite:duolingo",
     "geosite:category-ru",
-    "geosite:sberbank",
-    "geosite:tbank-ru",
-    "geosite:vtb",
     "geosite:gosuslugi",
-    "geosite:alfabank"
   ],
   "DirectIp": [
     "geoip:private",
