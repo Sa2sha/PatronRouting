@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/Sa2sha/PatronRouting@main/release/geosite.dat",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/Sa2sha/PatronRouting@main/release/geoip.dat",
-  "LastUpdated": "1786904656",
+  "LastUpdated": "1786906109",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
@@ -56,15 +56,13 @@
     "geosite:hdrezka",
     "geosite:dzen",
     "geosite:duolingo",
-    "geosite:category-ru",
-    "geosite:gosuslugi"
+    "geosite:category-ru"
   ],
   "DirectIp": [
     "geoip:private",
     "geoip:direct",
     "geoip:whitelist",
-    "geoip:russia-inside",
-    "geoip:ru"
+    "geoip:russia-inside"
   ],
   "ProxySites": [
     "geosite:youtube",
