@@ -62,7 +62,7 @@
     "geoip:private",
     "geoip:direct",
     "geoip:whitelist",
-    "geoip:russia-inside",
+    "geoip:russia-inside"
   ],
   "ProxySites": [
     "geosite:youtube",
