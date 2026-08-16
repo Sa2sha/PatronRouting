@@ -12,12 +12,18 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/Sa2sha/PatronRouting@main/release/geosite.dat",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/Sa2sha/PatronRouting@main/release/geoip.dat",
-  "LastUpdated": "1786873297",
+  "LastUpdated": "1786901974",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
   },
-  "RouteOrder": "block-proxy-direct",
+  "RouteOrder": "block-direct-proxy",
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:torrent",
+    "geosite:category-ads"
+  ],
+  "BlockIp": [],
   "DirectSites": [
     "geosite:private",
     "geosite:russia-inside",
@@ -26,31 +32,49 @@
     "geosite:microsoft",
     "geosite:apple",
     "geosite:epicgames",
+    "geosite:steam",
+    "geosite:rutracker",
     "geosite:riot",
     "geosite:escapefromtarkov",
-    "geosite:steam",
-    "geosite:twitch",
-    "geosite:pinterest",
-    "geosite:faceit"
+    "geosite:ozon",
+    "geosite:avito",
+    "geosite:aviasales",
+    "geosite:wildberries",
+    "geosite:yandex",
+    "geosite:x5",
+    "geosite:vk",
+    "geosite:sokolov",
+    "geosite:rutube",
+    "geosite:okko",
+    "geosite:ok",
+    "geosite:okaapps",
+    "geosite:mvideo",
+    "geosite:kinopub",
+    "geosite:kinopoisk",
+    "geosite:kaspersky",
+    "geosite:icloud",
+    "geosite:hdrezka",
+    "geosite:dzen",
+    "geosite:duolingo",
+    "geosite:category-ru",
+    "geosite:sberbank",
+    "geosite:tbank-ru",
+    "geosite:vtb",
+    "geosite:gosuslugi",
+    "geosite:alfabank"
   ],
   "DirectIp": [
     "geoip:private",
     "geoip:direct",
-    "geoip:russia-inside"
+    "geoip:whitelist",
+    "geoip:russia-inside",
+    "geoip:ru"
   ],
   "ProxySites": [
-    "geosite:google-play",
-    "geosite:github",
-    "geosite:twitch-ads",
     "geosite:youtube",
     "geosite:telegram"
   ],
   "ProxyIp": [],
-  "BlockSites": [
-    "geosite:win-spy",
-    "geosite:category-ads"
-  ],
-  "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
   "FakeDNS": "false"
 }
