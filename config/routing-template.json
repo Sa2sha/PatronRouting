@@ -57,14 +57,12 @@
     "geosite:dzen",
     "geosite:duolingo",
     "geosite:category-ru",
-    "geosite:gosuslugi"
   ],
   "DirectIp": [
     "geoip:private",
     "geoip:direct",
     "geoip:whitelist",
     "geoip:russia-inside",
-    "geoip:ru"
   ],
   "ProxySites": [
     "geosite:youtube",
