@@ -57,7 +57,7 @@
     "geosite:dzen",
     "geosite:duolingo",
     "geosite:category-ru",
-    "geosite:gosuslugi",
+    "geosite:gosuslugi"
   ],
   "DirectIp": [
     "geoip:private",
