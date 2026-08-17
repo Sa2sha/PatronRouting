@@ -56,7 +56,8 @@
     "geosite:hdrezka",
     "geosite:dzen",
     "geosite:duolingo",
-    "geosite:category-ru"
+    "geosite:category-ru",
+    "geosite:zoom"
   ],
   "DirectIp": [
     "geoip:private",
